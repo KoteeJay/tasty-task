@@ -96,7 +96,7 @@ nav .right .notification .red {
 }
 
 nav .hamburgrer {
-    color: #fff;
+    color: #111111;
     font-size: 30px;
 }
 
@@ -109,6 +109,7 @@ nav .hamburgrer {
     margin-right: 20px;
     background-color: rgb(255, 83, 83);
     color: #fff;
+    min-width: 200px;
 }
 
 .hero .btn1:hover {
@@ -124,13 +125,15 @@ nav .hamburgrer {
     margin-right: 20px;
     color: rgb(255, 83, 83);
     border: solid 2px rgb(255, 83, 83);
+    min-width: 200px;
 }
 
-.small .bx {
+.bx {
     margin-right: 20px;
+    min-width: 250px;
 }
 
-.small .bx i {
+.bx i {
     background-color: rgb(255, 83, 83);
     color: #fff;
     height: 25px;
